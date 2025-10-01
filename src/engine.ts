@@ -14,6 +14,14 @@ class Engine {
 
   start() {
     // NOTE: initialize engine
+
+    // Compile VS and FS
+    // Set program
+    
+    // Setup Vertex Array Object
+
+    // Create vertex buffer: one triangle with color lerping
+
     requestAnimationFrame(this.update);
   }
 
@@ -26,6 +34,14 @@ class Engine {
 
     gl.clearColor(0.5, 0.5, 0.5, 1.0);
     gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
+
+    // useProgram
+
+    // viewport
+
+    // bind VAO
+
+    // Draw triangle
 
     requestAnimationFrame(this.update);
   }
