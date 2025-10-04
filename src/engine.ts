@@ -140,9 +140,6 @@ class Engine {
 
     // useProgram
     gl.useProgram(this.program);
-    gl.disable(gl.DEPTH_TEST);
-    gl.disable(gl.CULL_FACE);
-    gl.disable(gl.BLEND);
 
     // viewport
     gl.viewport(0, 0, this.width, this.height);
