@@ -16,6 +16,10 @@ function main() {
     if(gl instanceof WebGL2RenderingContext) {
       app = new Engine(canvas, gl);
       app.start();
+
+      window.addEventListener("resize", () => {
+        app.resize(window.innerWidth, window.innerHeight);
+      })
     }
     else {
       throw new Error("Invalid gl context");
