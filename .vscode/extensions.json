@@ -1,0 +1,13 @@
+{
+	// Extensions everyone should have installed
+	"recommendations": [
+	  "ms-vsliveshare.vsliveshare",        // Live Share
+	  "esbenp.prettier-vscode",            // Prettier
+	  "eamodio.gitlens"                    // GitLens (Git supercharged)
+	],
+  
+	// Extensions that are optional / nice-to-have
+	"unwantedRecommendations": [
+	  "hookyqr.beautify" // conflicts with Prettier
+	]
+  }
